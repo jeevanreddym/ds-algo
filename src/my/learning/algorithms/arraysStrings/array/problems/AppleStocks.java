@@ -1,8 +1,6 @@
 package my.learning.algorithms.arraysStrings.array.problems;
 
-/**
- *
- */
+
 public class AppleStocks {
 
 	public static void main(String[] args) {
