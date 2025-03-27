@@ -10,7 +10,7 @@ public class MergeSort {
 				
 		MergeSort sorter = new MergeSort();
 		int[] sorted = sorter.mergesort(nums);
-		System.out.println(String.format("Sorted array: %s", Arrays.toString(sorted)));		
+		System.out.printf("Sorted array: %s%n", Arrays.toString(sorted));
 	}
 
 	private int[] mergesort(int[] nums) {
@@ -74,5 +74,4 @@ public class MergeSort {
 		
 		return merged;
 	}
-	
 }
